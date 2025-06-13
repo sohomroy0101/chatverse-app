@@ -31,3 +31,6 @@ export function initSocket(server) {
 export function getReceiverSocketId(userId) {
   return userSocketMap[userId];
 }
+
+export { io, getReceiverSocketId, app, server };
+
