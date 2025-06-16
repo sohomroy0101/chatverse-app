@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["https://chatverse-app-i6yh.onrender.com"],
+    origin: ["http://localhost:5173"],
   },
 });
 

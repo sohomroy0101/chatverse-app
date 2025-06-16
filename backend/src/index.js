@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://chatverse-app-i6yh.onrender.com",
+    origin: "http://localhost:5173",
     credentials: true,
   })
 );
